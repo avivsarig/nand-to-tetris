@@ -15,3 +15,11 @@ int and_bool(int x, int y)
 {
     return not_bool(nand_bool(x, y));
 }
+
+int or_bool(int x, int y)
+{
+    return not_bool(
+        and_bool(
+            not_bool(x),
+            not_bool(y)));
+}

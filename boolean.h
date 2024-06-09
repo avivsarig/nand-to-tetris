@@ -4,5 +4,6 @@
 int nand_bool(int x, int y);
 int not_bool(int x);
 int and_bool(int x, int y);
+int or_bool(int x, int y);
 
 #endif
