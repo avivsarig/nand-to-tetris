@@ -1,0 +1,19 @@
+# Ignore object files
+*.o
+
+# Ignore compiled binary files
+*.exe
+*.out
+*.a
+*.so
+*.dll
+
+# Ignore temporary files and directories
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Ignore build directories (e.g., for CMake or Make)
+build/
+dist/
